@@ -9,10 +9,10 @@ async def get_current_user():
     # aqui você pode simular os dados ou puxar de um banco real
     permissions = {
         "documentCreate": True,
-        "documentDelete": False,
+        "documentDelete": True,
         "documentMove": True,
         "folderEdit": True,
-        "folderDelete": False
+        "folderDelete": True
     }
 
     data_permissions = {
